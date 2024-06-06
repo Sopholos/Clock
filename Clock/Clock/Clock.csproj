@@ -43,12 +43,6 @@
     <ApplicationIcon>Assets\Icons\MainIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CommonLibrary">
-      <HintPath>..\..\..\CommonLibrary\CommonLibrary\Output\Release\CommonLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="ExtendersClassLibrary">
-      <HintPath>..\..\..\CommonLibrary\CommonLibrary\Output\Release\ExtendersClassLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Hardcodet.Wpf.TaskbarNotification, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Hardcodet.NotifyIcon.Wpf.1.0.8\lib\net451\Hardcodet.Wpf.TaskbarNotification.dll</HintPath>
     </Reference>
@@ -68,9 +62,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPFCommonLibrary">
-      <HintPath>..\..\..\CommonLibrary\CommonLibrary\Output\Release\WPFCommonLibrary.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="App.xaml">
@@ -134,6 +125,15 @@
   <ItemGroup>
     <Resource Include="Assets\Icons\MainIcon.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj">
+      <Project>{943c14e6-5c83-457b-b89e-22c26962e0a9}</Project>
+      <Name>CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WPFCommonLibrary\WPFCommonLibrary.csproj">
+      <Project>{d7f732dc-00da-421c-91c8-0b405435b987}</Project>
+      <Name>WPFCommonLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
