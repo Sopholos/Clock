@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{CF66A7F8-F733-4C6B-83A9-6D8505CB5AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCommonLibrary", "WPFCommonLibrary\WPFCommonLibrary.csproj", "{D7F732DC-00DA-421C-91C8-0B405435B987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{943C14E6-5C83-457B-B89E-22C26962E0A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF66A7F8-F733-4C6B-83A9-6D8505CB5AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF66A7F8-F733-4C6B-83A9-6D8505CB5AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF66A7F8-F733-4C6B-83A9-6D8505CB5AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF66A7F8-F733-4C6B-83A9-6D8505CB5AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F732DC-00DA-421C-91C8-0B405435B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F732DC-00DA-421C-91C8-0B405435B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F732DC-00DA-421C-91C8-0B405435B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F732DC-00DA-421C-91C8-0B405435B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943C14E6-5C83-457B-B89E-22C26962E0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943C14E6-5C83-457B-B89E-22C26962E0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943C14E6-5C83-457B-B89E-22C26962E0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943C14E6-5C83-457B-B89E-22C26962E0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E378154-AE3F-4E0A-AA7A-C03CCDCE13A3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sopholos.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Clock\\Clock.csproj
+		SccProjectName1 = Clock
+		SccLocalPath1 = Clock
+		SccProjectUniqueName2 = WPFCommonLibrary\\WPFCommonLibrary.csproj
+		SccProjectName2 = WPFCommonLibrary
+		SccLocalPath2 = WPFCommonLibrary
+		SccProjectUniqueName3 = CommonLibrary\\CommonLibrary.csproj
+		SccProjectName3 = CommonLibrary
+		SccLocalPath3 = CommonLibrary
+	EndGlobalSection
+EndGlobal
